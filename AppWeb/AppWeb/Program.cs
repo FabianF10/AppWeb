@@ -10,6 +10,16 @@ namespace AppWeb
     {
         static void Main(string[] args)
         {
+            string nombre;
+            int edad;
+            Console.WriteLine("Ingrese su nombre");
+            nombre = Console.ReadLine();
+            Console.WriteLine("Ingrese su edad");
+            edad = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Bienvenido al sistema¨{nombre} tu edad es {edad}");
+            Console.ReadLine();    
+            
         }
     }
 }
+
